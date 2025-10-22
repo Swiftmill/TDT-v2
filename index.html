@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Dark Triad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="video-container" aria-hidden="true">
+    <video id="video-primary" class="video-layer active" autoplay muted loop playsinline></video>
+    <video id="video-secondary" class="video-layer" autoplay muted loop playsinline></video>
+  </div>
+  <div class="overlay halo" aria-hidden="true"></div>
+  <div class="overlay grain" aria-hidden="true"></div>
+  <div class="overlay scanlines" aria-hidden="true"></div>
+
+  <div class="site-wrapper">
+    <header class="top-bar">
+      <div class="top-bar__logo" id="logoTrigger" role="button" tabindex="0" aria-label="Cycle background video">
+        <div class="logo-mark" data-logo></div>
+        <span class="logo-name">THE DARK TRIAD</span>
+      </div>
+      <a class="login-button" href="https://discord.com" target="_blank" rel="noopener noreferrer">
+        <span class="login-icon" aria-hidden="true"></span>
+        LOGIN
+      </a>
+    </header>
+
+    <main class="hero" id="titleTrigger" role="button" tabindex="0" aria-label="Cycle background video">
+      <div class="hero-inner">
+        <div class="hero-symbol">
+          <div class="logo-mark large" data-logo></div>
+          <div class="logo-connector" aria-hidden="true"></div>
+        </div>
+        <h1 class="hero-title">
+          <span class="title-main">THE DARK</span>
+          <span class="title-emphasis">TRIAD</span>
+        </h1>
+        <div class="title-divider" aria-hidden="true"></div>
+        <p class="hero-tagline">THE GATE TO EVERYTHING DARK AND HIDDEN INTELLECT, A PATH ONLY FOR THOSE WHO DARE TO SEEK THE TRUE SELF.</p>
+      </div>
+    </main>
+
+    <section class="glyphs" aria-label="Dark Triad aspects">
+      <div class="glyphs-inner" id="glyphContainer"></div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-divider" aria-hidden="true"></div>
+      <p>© THE DARK TRIAD. CORP : <a href="https://discord.com" target="_blank" rel="noopener noreferrer">JOIN THE MIND.</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
